@@ -1,0 +1,21 @@
+# 数据库配置
+DB_HOST=localhost
+DB_USER=你的数据库用户名
+DB_PASSWORD=你的数据库密码
+DB_DATABASE=makevideo
+DB_CHARSET=utf8mb4
+DB_PORT=3306
+
+# 飞书API配置
+FEISHU_APP_ID=你的飞书应用ID
+FEISHU_APP_SECRET=你的飞书应用密钥
+
+# 文件存储配置
+SAVE_ROOT=/home/feishu
+
+# 日志配置
+LOG_LEVEL=INFO
+
+# 下载配置
+DOWNLOAD_TIMEOUT=30
+MAX_RETRIES=3 
